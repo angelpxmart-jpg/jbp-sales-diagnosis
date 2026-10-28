@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>JBP 三家業績診斷</title>
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, "PingFang TC", "Noto Sans TC", sans-serif;
+  font-size: 16px; line-height: 1.8; color: #1a1a1a; background: #f8f9fa;
+}
+.container {
+  max-width: 960px; margin: 0 auto; padding: 48px 32px 80px;
+  background: #fff; min-height: 100vh;
+  box-shadow: 0 0 40px rgba(0,0,0,.06);
+}
+.top-nav {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 0 32px; border-bottom: 1px solid #e5e7eb; margin-bottom: 40px;
+}
+.top-nav a { color: #1a6b3c; text-decoration: none; font-size: 14px; font-weight: 500; }
+.top-nav a:hover { text-decoration: underline; }
+.badge {
+  display: inline-block; background: #e3ede7; color: #1a6b3c;
+  font-size: 12px; padding: 2px 10px; border-radius: 20px;
+  font-weight: 600; letter-spacing: .3px;
+}
+h1 { font-size: 28px; font-weight: 700; margin: 32px 0 12px; color: #111; }
+h2 {
+  font-size: 22px; font-weight: 700; margin: 52px 0 16px;
+  padding-bottom: 6px; border-bottom: 3px solid #1a6b3c; color: #1a1a1a;
+}
+h3 { font-size: 18px; font-weight: 600; margin: 28px 0 8px; color: #222; }
+h4 { font-size: 15px; font-weight: 600; margin: 20px 0 6px; color: #333; }
+p { margin: 10px 0; }
+ul, ol { margin: 10px 0 10px 24px; } li { margin: 4px 0; }
+blockquote {
+  border-left: 4px solid #1a6b3c; padding: 8px 16px;
+  background: #e3ede7; margin: 16px 0; border-radius: 0 6px 6px 0;
+  color: #004d1e;
+}
+blockquote p { margin: 0; }
+pre {
+  background: #1e1e2e; color: #cdd6f4; padding: 20px 24px;
+  border-radius: 8px; overflow-x: auto; font-size: 13.5px; line-height: 1.6;
+  margin: 16px 0;
+  font-family: "SF Mono", "Fira Code", "Noto Sans Mono CJK TC", monospace;
+}
+code {
+  background: #f3f4f6; padding: 2px 6px; border-radius: 4px;
+  font-size: 13.5px; font-family: "SF Mono", "Fira Code", monospace;
+  color: #c0392b;
+}
+pre code { background: none; padding: 0; color: inherit; font-size: inherit; }
+a { color: #1a6b3c; word-break: break-all; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14.5px; table-layout: auto; }
+th { background: #1a6b3c; color: #fff; padding: 10px 14px; text-align: left; font-weight: 600; white-space: nowrap; }
+td { padding: 9px 14px; border-bottom: 1px solid #e5e7eb; overflow-wrap: break-word; word-break: break-word; vertical-align: top; }
+th[align="right"], td[align="right"] { text-align: right; white-space: nowrap; }
+th[align="center"], td[align="center"] { text-align: center; white-space: nowrap; }
+tr:nth-child(even) td { background: #f3f7f5; }
+tr:hover td { background: #e3ede7; }
+hr { border: none; border-top: 1px solid #e5e7eb; margin: 40px 0; }
+strong { font-weight: 700; color: #111; }
+.footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid #e5e7eb;
+  font-size: 13px; color: #9ca3af; text-align: center; }
+.doc-filename {
+  font-size: 24px; font-weight: 700; color: #111;
+  margin: 0 0 20px; line-height: 1.3;
+}
+.properties {
+  background: #f8f9fa; border: 1px solid #e5e7eb;
+  border-radius: 8px; padding: 10px 16px; margin-bottom: 32px; font-size: 14px;
+}
+.properties-label {
+  text-align: right; font-size: 12px; color: #9ca3af;
+  font-weight: 500; margin-bottom: 6px;
+}
+.prop-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 6px 0; border-bottom: 1px solid #f0f0f0;
+}
+.prop-row:last-child { border-bottom: none; }
+.prop-value { color: #374151; }
+.prop-key { color: #9ca3af; font-size: 13px; min-width: 50px; text-align: right; }
+</style>
+</head>
+<body>
+<div class="container">
+  
+  <h1 class="doc-filename">JBP 三家業績診斷</h1>
+<div class="properties"><div class="properties-label">屬性</div><div class="prop-row"><span class="prop-value">JBP 三家業績診斷</span><span class="prop-key">title</span></div>
+</div>
+<h1>JBP 三家業績診斷</h1>
+<blockquote>
+<p>長期追蹤三家 JBP 廠商「為什麼漲／為什麼不漲」，每月一段，新的放最上面。
+本頁只放判斷與關鍵數字；完整表格看腳本產出 <code>Agent Hub/02-工作報表/JBP/analysis/三家業績診斷/output/YYYY-MM.md</code>，重跑方式見同資料夾 README。
+對外版（給 Vincent／廠商）需要時才另做 HTML 發布到 supplier-reports。
+相關：[[全電商分析]]（全站事件日曆、報表登錄，本頁代號 R1027-1）｜[[JBP 廠商看板]]｜[[APM 購物行為轉換率]]｜[[jbp-sales-report]]</p>
+</blockquote>
+<h2>現況一句話</h2>
+<p>跨境 9 月起流量成長快於同業、10 月再搭上美妝品類流量上升，靠品項廣、客單高接住；金盛世與壹伍壹拾都有流量，但流量導到不成交的商品（轉單品／PP 眼罩）。</p>
+<hr>
+<h2>2026-10（資料：訂單到 10/26、APM 8、9 月整月＋10/1–10/26）</h2>
+<p>數字表：<code>output/2026-10.md</code></p>
+<h3>結論</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>跨境豐收</th>
+<th>金盛世</th>
+<th>壹伍壹拾</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>10 月推估 vs 起跑期（4–6 月月均）</td>
+<td>+25%（392 萬，今年新高）</td>
+<td>-2%（232 萬）</td>
+<td>-63%（23.5 萬）</td>
+</tr>
+<tr>
+<td>vs 9 月</td>
+<td>+42%</td>
+<td>+13%</td>
+<td>+26%</td>
+</tr>
+<tr>
+<td>主要原因</td>
+<td>9 月自身流量成長、10 月品類流量上升＋品項廣＋客單高＋自造 CRM 檔期</td>
+<td>8 月高花費流量品質差；之後轉換回升，但箱購流量持續流失、轉單品轉換差</td>
+<td>流量 ×3.8 卻集中在不成交的眼罩、打卡褲</td>
+</tr>
+</tbody></table>
+<h3>商品運營</h3>
+<ul>
+<li>跨境：動銷 SKU 334（7 月 258）、前 5 SKU 只佔 27%；客單 2,008 元今年最高（多入組）。資生堂 +33.7 萬，另有 Elizabeth Arden、LA MER、SK-II、YSL、新品牌 BIODANCE 分散貢獻</li>
+<li>金盛世：SKU 53 持平、近 3 月新品貢獻 0%；CONSOFY -9.5 萬、柔芙 -8.7 萬，倍潔雅 +13.3 萬</li>
+<li>壹伍壹拾：五品牌全面下滑（大立美 11.3→1.7 萬、飲后 16.3→6.3 萬、PP 17.1→6.6 萬）；退貨率 1.6%→4.7%</li>
+</ul>
+<h3>APM 漏斗（8 月 → 9 月 → 10 月，日均瀏覽）</h3>
+<ul>
+<li>跨境：瀏覽 1,803→2,236→3,256；同業臉部保養 2,413→2,254→3,369。<strong>8→9 月跨境 +24%、同業 -7%，是跨境自身成長；9→10 月兩者都約 +46–49%，是品類流量上升</strong>。轉換三個月都略低於同業（加車後購買 23.0%／22.2%／22.0%，同業 25.5%／25.0%／23.1%），跨境靠品項廣接住流量</li>
+<li>金盛世：成交率 3.87%→6.35%→7.47% 連兩月改善（同業 18.5%／19.2%／17.3%）。8 月瀏覽 2,228 為三月最高但品質差：箱購加車率 15.2%（同業 39.8%）、轉單成交率 1.81%（同業 10.4%）；8 月瀏覽前幾名柔軟舒適 550、PASEO 掛抽 260（整月 8 購買）、熊好用 257。<strong>轉單流量一直都在（483→361→495），持續流失的是箱購（1,596→944→716，柔軟舒適 550→316→70）</strong>。10 月箱購成交率 10.4% 接近同業；轉單加車後購買 14.9%，同業 29.1%。熊好用 10 月 4,909 瀏覽／746 加車／95 購買</li>
+<li>壹伍壹拾：瀏覽 226→162→620，成交率 1.34%→1.36%→0.46%；8 月流量主力是飲后 6 盒（74／日、41 購買），10 月轉到 PP 眼罩（19→149，購買 12→2）與打卡褲（1,233 瀏覽 0 購買）；護膝轉換最好但流量少</li>
+</ul>
+<h3>全站事件日三家反應</h3>
+<p>倍數＝當日 ÷ 同檔期非事件日中位數（口徑同 [[全電商分析]] 事件日曆；11-1 檔暖身／返場每天有券，借用 10 檔基準，2026-10-27 起）；完整 17 天見 <code>output/2026-10.md</code>。</p>
+<table>
+<thead>
+<tr>
+<th>事件</th>
+<th align="right">全站（排除 iPhone）</th>
+<th align="right">跨境</th>
+<th align="right">金盛世</th>
+<th align="right">壹伍壹拾</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>家家購物節 10/9–10/10</td>
+<td align="right">2.5–2.8</td>
+<td align="right">1.7–2.5</td>
+<td align="right"><strong>4.4–6.3</strong></td>
+<td align="right">1.2–1.9</td>
+</tr>
+<tr>
+<td>週三享購日 10/7、10/14</td>
+<td align="right">1.4–2.5</td>
+<td align="right">1.7</td>
+<td align="right">2.2–2.3</td>
+<td align="right">1.3–1.9</td>
+</tr>
+<tr>
+<td>超級會員日 10/20–10/22</td>
+<td align="right">1.3–1.9</td>
+<td align="right">1.5–2.7</td>
+<td align="right">1.7–2.5</td>
+<td align="right">0–1.4</td>
+</tr>
+<tr>
+<td>週末生活節（六日一，7 天）</td>
+<td align="right">1.3–1.6</td>
+<td align="right"><strong>0.5–1.6</strong></td>
+<td align="right">1.1–2.7</td>
+<td align="right">0–8.2</td>
+</tr>
+<tr>
+<td>雙11預跑 10/23</td>
+<td align="right">1.1</td>
+<td align="right">2.1（跨境 SMS 第二波次日）</td>
+<td align="right">1.2</td>
+<td align="right">2.4</td>
+</tr>
+</tbody></table>
+<ul>
+<li>金盛世對每個全站事件都放大反應，連不在活動辦法裡的週三享購日（P00295，民生箱購為主）也有 2.2 倍以上；跨境對全站週末券幾乎不反應，高點在自發 SMS 日（10/22 2.7 倍，全站 1.3 倍）</li>
+<li>壹伍壹拾日訂單少，倍數只看方向</li>
+<li>2026-10-27 週三享購日改列事件日後，10 檔基準由 325 萬降為 277 萬，倍數整體上修</li>
+</ul>
+<h3>站內活動</h3>
+<ul>
+<li>跨境：10/15、10/22 兩波 SMS＋APP Push 滿 1,500 折 100，增量約 5.6 萬、12–15 萬；10/19–25 週業績 104.5 萬為當月最高；非活動日日均 10.9 萬（9 月日均 9.2 萬）。詳見 [[2026-10-1_跨境豐收_雙11]]</li>
+<li>金盛世：當月最高兩天是 10/10、10/9 全站神券，沒有自有檔期</li>
+<li>壹伍壹拾：最高日 10/11（品牌週＋全站神券），見 [[2026-10-1_騏瑋_品牌週]]</li>
+</ul>
+<h3>外投廣告</h3>
+<ul>
+<li>跨境：8 月後無外投，仍成長</li>
+<li>金盛世：8 月花費最高（40.1 萬）卻是業績最低月；平台 ROAS 約 80% 流向全站其他商品。10 月花費 ad_spend.json 未記錄</li>
+<li>壹伍壹拾：10 月 12.8 萬，後台 ROAS 0.44–0.54</li>
+<li>推論（未驗證）：金盛世 PMax／版位導流與壹伍壹拾廣告主推品，可能正是轉換差的轉單品與眼罩。佐證：金盛世 8 月花費最高的月份，APM 瀏覽也最高但成交率最低（3.87%），流量集中在柔軟舒適、PASEO 掛抽、熊好用；仍需比對 PMax 商品組合確認</li>
+</ul>
+<h3>下一步</h3>
+<ul>
+<li><input disabled="" type="checkbox"> 金盛世：查熊好用、轉單品的導流來源（版位／推播／PMax 商品組合）、價格、湊單與庫存；導流改回箱購主力</li>
+<li><input disabled="" type="checkbox"> 壹伍壹拾：確認廣告與版位主推品，改推護膝、飲后；補飲后商品頁信任內容</li>
+<li><input disabled="" type="checkbox"> 跨境：維持每週一波站內 CRM；看臉部保養轉換落後同業的品項（山茶花加贈組、百優 2 入）</li>
+<li><input disabled="" type="checkbox"> 11 月購物車整併上線後，回看金盛世轉單加車後購買率，驗證「湊不到滿額」推測</li>
+</ul>
+<h3>限制</h3>
+<ul>
+<li>跨境「成長」是對自己 4–6 月與 9 月；Iris 10/6 提到 9 月 -22.1%、10/1–10/5 -31.2%，比較基準未說明，若為 YoY 則跨境未超越去年</li>
+<li>10 月推估為日均×31，未考慮月底檔期與雙 11 鋪底</li>
+<li>壹伍壹拾月購買僅 74 筆，SKU 層只看趨勢</li>
+</ul>
+
+
+  <div class="footer">JBP 三家業績診斷</div>
+</div>
+</body>
+</html>
